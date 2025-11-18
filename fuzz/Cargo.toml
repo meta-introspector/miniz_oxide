@@ -26,8 +26,8 @@ path = "../miniz_oxide"
 miniz_oxide = { path = "../miniz_oxide" , features=["simd"]}
 
 # Prevent this from interfering with workspaces
-[workspace]
-members = ["."]
+#[workspace]
+#members = ["."]
 
 [[bin]]
 name = "fuzz_high"

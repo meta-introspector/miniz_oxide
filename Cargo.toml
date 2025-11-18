@@ -14,7 +14,7 @@ description = "DEFLATE compression and decompression API designed to be Rust dro
 edition = "2018"
 exclude = ["benches/data/*", "/*.sh", "/redefine.txt", "fuzz/*", "tests/*", "miniz/*"]
 
-[workspace]
+#[workspace]
 members = ["miniz_oxide_test"]
 
 [lib]
