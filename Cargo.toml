@@ -43,9 +43,9 @@ libc_stub = []
 
 simd = ['miniz_oxide/simd']
 
-[profile.dev]
-panic = "abort"
+# [profile.dev]
+# panic = "abort"
 
-[profile.release]
-panic = "abort"
+# [profile.release]
+# panic = "abort"
 
